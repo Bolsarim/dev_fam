@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+img {
+    border: 3px dotted blue;
+}
+table {
+    width: 50%;
+}
+td {
+    padding: 5px;   
+}
+.vermelho {
+    color: red;
+}
+#azul {
+    color: blue;
+}
+/* #azul2 {
+    color: darkblue;
+} */

@@ -1,0 +1,44 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* row-gap: e column-gap: */
+    gap: 50px 20px; 
+ /* 1 argumento: espaço para linha e coluna 
+    2 argumentos: 1º) controla espaço da linha
+                  2º) controle espaço da coluna */
+    margin-bottom: 50px;
+}
+.ex1 {
+    text-align: center;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+    
+}
+.col1 {
+    grid-column: 3/span3;
+}
+.col1,.col2, .col3, .col4, .col5, .col6 {
+    border: 1px solid orange;
+}
+  
+.container3 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.row1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.row4 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
